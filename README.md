@@ -2,7 +2,7 @@
 
 Complete pipeline for generating images for any file used for malware machine learning research
 
-Run git clone https://github.com/BlazerYoo/file2img.git or [download](https://github.com/BlazerYoo/file2img/archive/refs/heads/main.zip) repo.
+Run `git clone https://github.com/BlazerYoo/file2img.git` or [download](https://github.com/BlazerYoo/file2img/archive/refs/heads/main.zip) repo.
 
 Run pip install -r requirements.txt to install dependencies.
 
