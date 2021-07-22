@@ -14,4 +14,6 @@ Run `pip install -r requirements.txt` to install dependencies.
 
 `imgen_gray_resize.py` generates grayscale image of any file with uniform square dimensions
 
+## License
+
 Read the [AGPL-3.0 License](https://github.com/BlazerYoo/file2img/blob/main/LICENSE)
