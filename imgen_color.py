@@ -48,4 +48,4 @@ def img_gen(file):
             line_num += 1
 
     # generate and save image
-    plt.imsave('images/' + file[:file.index(os.path.splitext(file)[1])] + '.png', dec_2d_matrix)
+    plt.imsave(file[:file.index(os.path.splitext(file)[1])] + '.png', dec_2d_matrix)

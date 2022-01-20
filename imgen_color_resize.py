@@ -1,7 +1,7 @@
 import os, binascii, math, numpy as np, matplotlib.pyplot as plt
 
 # generate square grayscale image of any file
-def img_gen_resize(file):
+def img_gen(file):
     with open(file, 'rb') as f:
 
         # list to store file hexdump, line by line
@@ -59,4 +59,4 @@ def img_gen_resize(file):
     # generate and save image
     # this will result in images of uniform dimensions
     plt.imshow(dec_2d_sqmatrix)
-    plt.savefig('images/' + file[:file.index(os.path.splitext(file)[1])], bbox_inches='tight', pad_inches=0)
+    plt.savefig(file[:file.index(os.path.splitext(file)[1])], bbox_inches='tight', pad_inches=0)
