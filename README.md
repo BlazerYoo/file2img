@@ -14,7 +14,7 @@ Run `pip install -r requirements.txt` to install dependencies.
 
 `imgen_gray_resize.py` generates grayscale image of any file with uniform square dimensions
 
-## Help menu
+## Usage
 
 ```
 usage: python run.py [--help] [--file FILE_PATH] []
