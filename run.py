@@ -21,7 +21,7 @@ for arg in sys.argv:
         print('''
 usage: python run.py [--help] [--file FILE_PATH] []
 
-Scan your file across multiple antivirus engines
+Generate images of any file
 
 arguments:
     --help, -h           : display this help menu and exit
@@ -30,7 +30,7 @@ arguments:
                            (color, color_resize, gray, gray_resize)
 
 example:
-python run.py chrome.exe''')
+python run.py ffmpeg.exe''')
 
     else:
         # File and style

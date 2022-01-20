@@ -14,6 +14,23 @@ Run `pip install -r requirements.txt` to install dependencies.
 
 `imgen_gray_resize.py` generates grayscale image of any file with uniform square dimensions
 
+## Help menu
+
+```
+usage: python run.py [--help] [--file FILE_PATH] []
+
+Generate images of any file
+
+arguments:
+    --help, -h           : display this help menu and exit
+    --file, -f FILE_PATH : path of file to send to generate image of
+    --style, -s STYLE    : style of image to generate in
+                           (color, color_resize, gray, gray_resize)
+
+example:
+python run.py ffmpeg.exe
+```
+
 ## Example
 Resize color image of `ffmpeg.exe`
 
