@@ -25,7 +25,7 @@ Generate images of any file
 
 arguments:
     --help, -h           : display this help menu and exit
-    --file, -f FILE_PATH : path of file to send to generate image of
+    --file, -f FILE_PATH : path of file to generate image of
     --style, -s STYLE    : style of image to generate in
                            (color, color_resize, gray, gray_resize)
 

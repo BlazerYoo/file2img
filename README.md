@@ -23,7 +23,7 @@ Generate images of any file
 
 arguments:
     --help, -h           : display this help menu and exit
-    --file, -f FILE_PATH : path of file to send to generate image of
+    --file, -f FILE_PATH : path of file to generate image of
     --style, -s STYLE    : style of image to generate in
                            (color, color_resize, gray, gray_resize)
 
@@ -33,7 +33,7 @@ python run.py ffmpeg.exe
 
 ## Example
 
-|Resize color image of `ffmpeg.exe`|Resized grayscale image of `ffmpeg.exe`|
+|Resized color image of `ffmpeg.exe`|Resized grayscale image of `ffmpeg.exe`|
 | ----------- | ----------- |
 |![image](https://user-images.githubusercontent.com/69565038/150297529-20d1b242-db6f-4b98-9444-7b403ec281a7.png)|![image](https://user-images.githubusercontent.com/69565038/150297608-8765c106-7942-4e39-ba64-7a7d72639c9f.png)|
 
